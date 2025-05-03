@@ -1,0 +1,9 @@
+:root {
+  --background: #14131a;
+  --main: #24232a;
+  --green: #a5ffaf;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+}
