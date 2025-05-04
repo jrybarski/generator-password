@@ -6,4 +6,36 @@
 
 body {
   font-family: "JetBrains Mono", monospace;
+  background-color: var(--background);
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+  margin-top: 5%;
+}
+
+.header {
+  color: grey;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.password--output {
+  background-color: var(--main);
+
+  padding: 5px 15px;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+}
+
+.password--output h1 {
+  width: 90%;
+  font-size: 24px;
+}
+.password--output img {
+  width: 24px;
+  height: 24px;
+  align-self: center;
 }
