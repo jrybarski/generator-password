@@ -1,4 +1,3 @@
-const password = document.querySelector(".password");
 const thumb = document.getElementById("slider-thumb");
 const track = document.getElementById("slider-track");
 const container = document.querySelector(".slider-container");
