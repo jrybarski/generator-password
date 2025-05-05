@@ -12,13 +12,13 @@ body {
 .container {
   margin: 0 auto;
   width: 375px;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .header {
   color: grey;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .password--output {
@@ -44,7 +44,7 @@ body {
   background-color: var(--main);
   color: white;
   padding: 20px;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .mainsection h1 {
@@ -91,7 +91,7 @@ h1 {
   cursor: pointer;
 }
 .radio--inputs {
-  margin-top: 12%;
+  margin-top: 15%;
   align-items: center;
 }
 
@@ -117,4 +117,35 @@ h1 {
   width: 100%;
   display: flex;
   gap: 15px;
+}
+
+.strength {
+  display: flex;
+  align-items: center;
+  background-color: var(--background);
+  padding: 20px 12px;
+  margin-top: 8%;
+}
+.strength h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.strength h1 {
+  margin-right: 45px;
+  font-size: 18px;
+  opacity: 0.7;
+}
+.strength h2 {
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.strength-visual {
+  height: 30px;
+  width: 10px;
+  border: 1px solid white;
+  margin-right: 8px;
 }
