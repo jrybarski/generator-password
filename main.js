@@ -96,7 +96,7 @@ function checkingStrenght() {
   } else if (count > 1 && currentValue > 8) {
     strengthLevel1.style.backgroundColor = "orange";
     strengthLevel2.style.backgroundColor = "orange";
-  } else if (count === 1 && currentValue > 6) {
+  } else if (count >= 1 && currentValue > 6) {
     strengthLevel1.style.backgroundColor = "green";
   }
 }

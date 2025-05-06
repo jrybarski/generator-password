@@ -125,6 +125,12 @@ h1 {
   background-color: var(--background);
   padding: 20px 12px;
   margin-top: 8%;
+  justify-content: space-between;
+}
+
+.strength-level {
+  margin-right: 5%;
+  margin-left: -5%;
 }
 .strength h1,
 h2 {
@@ -133,12 +139,10 @@ h2 {
 }
 
 .strength h1 {
-  margin-right: 45px;
   font-size: 18px;
   opacity: 0.7;
 }
 .strength h2 {
-  margin-right: 20px;
   font-size: 22px;
   font-weight: 300;
 }
@@ -163,4 +167,51 @@ h2 {
   width: 12px;
   height: 12px;
   margin-left: 15px;
+}
+
+.slider-thumb:hover {
+  background: black;
+  border: 2px solid var(--green);
+}
+
+.button-generate:hover {
+  background-color: var(--main);
+  border: 2px solid var(--green);
+  color: var(--green);
+}
+
+.strengths {
+  display: flex;
+}
+
+.copy-icon:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 53rem) {
+  .container {
+    width: 50%;
+  }
+  .strength-level {
+    margin-right: 10%;
+    margin-left: -10%;
+  }
+}
+
+@media (min-width: 90rem) {
+  .container {
+    width: 30%;
+  }
+  .password--output {
+    padding: 20px;
+  }
+  .radio--inputs {
+    margin-top: 8%;
+  }
+  .strength {
+    margin-top: 5%;
+  }
+  .mainsection {
+    margin-top: 5%;
+  }
 }
